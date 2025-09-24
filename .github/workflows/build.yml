@@ -1,0 +1,27 @@
+name: Node.js CI
+on:
+  pull_request:
+    branches: ['main']
+  push:
+    branches: ['main']
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install npm packages
+        run: npm ci
+        env:
+          CLOUDSMITH_TOKEN: ${{ secrets.CLOUDSMITH_TOKEN }}
+      - name: Run Cypress tests
+        run: |
+          npm run test:playwright
+
+      - name: Level CI Accessibility Analysis
+        uses: levelaccess/level-ci@main
+        with:
+          token: ${{ secrets.LEVEL_CI_TOKEN }}
+          report_paths: './level-ci-reports'
