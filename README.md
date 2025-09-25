@@ -84,6 +84,6 @@ Run the Playwright test suite:
 npm run test:playwright
 ```
 
-**Documentation**: See the full details in the [docs/](https://docs.cicd.userway.org/get-started/connect-repository/github) directory
+**Documentation**: See the full details in the [docs](https://docs.cicd.userway.org/get-started/connect-repository/github) directory
 
 ---
