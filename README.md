@@ -62,7 +62,7 @@ Run the development server:
 npm run dev
 ```
 
-App URL: `<http://localhost:1342>`
+App URL: [http://localhost:1342](http://localhost:1342)
 
 Open the app in the browser at the provided local URL.
 

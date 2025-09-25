@@ -1,13 +1,7 @@
 import { test, expect } from "@playwright/test";
-import { levelSetup, levelAnalyze } from "@level-ci/a11y-playwright";
+import { levelAnalyze } from "@level-ci/a11y-playwright";
 
 test.describe("navigation", () => {
-  // test.beforeAll(async () => {
-  //   levelSetup({
-  //     reportPath: "./level-ci-reports",
-  //   });
-  // });
-
   test("runs Level CI analysis on the home page", async ({ page }) => {
     await page.goto("/");
 
