@@ -13,5 +13,19 @@
     "@types/node": "^24.5.2",
     "express": "^5.1.0",
     "typescript": "^5.9.2"
-  }
+  },
+  "description": "This project demonstrates how to integrate **Level CI accessibility analysis** into a web application using **Playwright**, and **GitHub Actions**.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DariaLevel333/level-ci-playwright-sample-github.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DariaLevel333/level-ci-playwright-sample-github/issues"
+  },
+  "homepage": "https://github.com/DariaLevel333/level-ci-playwright-sample-github#readme"
 }
