@@ -7,6 +7,7 @@ export default {
  reportPaths: ['./level-ci-reports']
 } satisfies Config;
 
+// some comment
 //ngrok
 // import type { Config } from '@level-ci/cli'
 // import { ngrokConnection } from '@level-ci/ngrok'
