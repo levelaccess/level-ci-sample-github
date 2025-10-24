@@ -9,7 +9,7 @@
     "@level-ci/a11y-playwright": "^0.1.1-dev-20251022112206",
     "@level-ci/cli": "^0.1.8-alpha.41",
     "@level-ci/ngrok": "^0.1.4-alpha.27",
-    "@playwright/test": "^1.42.1",
+    "@playwright/test": "^1.56.1",
     "@types/node": "^24.5.2",
     "express": "^5.1.0",
     "typescript": "^5.9.2"
