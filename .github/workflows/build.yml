@@ -25,8 +25,8 @@ jobs:
           CLOUDSMITH_TOKEN: ${{ secrets.CLOUDSMITH_TOKEN }}
       - name: Install Playwright browsers
         run: npx playwright install chromium
-      # - name: Run Playwright tests
-      #   run: npm run test:playwright
+      - name: Run Playwright tests
+        run: npm run test:playwright
 
       - name: Level CI Accessibility Analysis
         uses: levelaccess/level-ci@dev
