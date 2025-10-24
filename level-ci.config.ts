@@ -1,12 +1,11 @@
 import type { Config } from "@level-ci/cli";
-
 export default {
-  organization: "volodymyr-kulyk-40-userway-org-lando",
-  project: "level-ci-sample-github",
-  token: process.env.LEVEL_CI_TOKEN,
-  reportPaths: ["./level-ci-reports"],
-  server: "https://api.dev.userway.dev",
-} satisfies Config; 
+ organization: "volodymyr-kulyk-32-userway-org-podss",
+ project: "level-ci-playwright-sample-github",
+ token: process.env.LEVEL_CI_TOKEN,
+ server: "https://api.qa.userway.dev",
+ reportPaths: ['./level-ci-reports']
+} satisfies Config;
 
 //ngrok
 // import type { Config } from '@level-ci/cli'
