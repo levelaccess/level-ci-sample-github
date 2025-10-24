@@ -9,7 +9,7 @@ test.describe("navigation", () => {
     await expect(page.locator(".headline")).toContainText(
       /Internet Plans For You/
     );
-    await levelAnalyze(page);
+    await levelAnalyze(page, {elementScreenshots: false, pageScreenshot: false});
     // Run the accessibility analysis and write a report to ./level-ci-reports
     // await levelAnalyze(page);
   });
