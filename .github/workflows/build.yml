@@ -5,7 +5,7 @@ on:
       - "**"
   push:
     branches:
-      - branch-1
+      - branch-2
       - develop
       - "release/**"
       - "hotfix/**"
