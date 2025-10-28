@@ -6,10 +6,10 @@ export default {
  server: "https://api.dev.userway.dev",
  reportPaths: ['./level-ci-reports'],
  override: {
-    "branch-2": {
-        scope:"overall",
+    'main': {
+      scope: 'delta',
     },
- },
+  },
 } satisfies Config;
 
 //ngrok
