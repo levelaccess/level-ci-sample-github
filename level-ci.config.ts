@@ -7,7 +7,7 @@ export default {
  reportPaths: ['./level-ci-reports'],
  override: {
     "branch-1": {
-        scope:"overall",
+        scope:"delta",
     },
  },
 } satisfies Config;
