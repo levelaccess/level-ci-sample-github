@@ -1,9 +1,9 @@
 import type { Config } from "@level-ci/cli";
 export default {
- organization: "volodymyr-kulyk-32-userway-org-podss",
+ organization: "volodymyr-kulyk-40-userway-org-lando",
  project: "level-ci-playwright-sample-github",
  token: process.env.LEVEL_CI_TOKEN,
- server: "https://api.qa.userway.dev",
+ server: "https://api.dev.userway.dev",
  reportPaths: ['./level-ci-reports']
 } satisfies Config;
 
